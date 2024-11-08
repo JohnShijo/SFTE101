@@ -3,14 +3,12 @@ html{
 }
 
 body { text-align: center; 
-
+    
 }
 
-img {
-    width: 20%;
-    height: 20%;
+img{
+    align-content: center;
 }
-
 .navbar ul {
     list-style-type: none;
     background-color: rgb(255, 255, 255);
@@ -43,6 +41,19 @@ body header{
     border-style: solid;
 
 
+}
+
+.testimonials {
+    display: flex;
+}
+
+.test {
+    flex: 1;
+    border: solid #000;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 20px;
+    flex-basis: 30%;
 }
 
 footer{

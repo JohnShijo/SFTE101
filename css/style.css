@@ -7,41 +7,52 @@ body { text-align: center;
 }
 
 img{
-    align-content: center;
+    float: left;
 }
-.navbar ul {
+
+.cycle-slideshow.img{
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+   justify-content: center;
+}
+.nav ul {
+    display: flex;
+    width: 80%;
     list-style-type: none;
     background-color: rgb(255, 255, 255);
     padding: 0%;
     margin: 0%;
-
+    justify-content: center;
+    
+    
 }
 
-.navbar a{
+.nav a{
     color: #000;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
-
+    border-style: solid;  
+    justify-content: center;
 }
 
-.navbar a:hover{
+.nav a:hover{
     background-color: rgb(255, 255, 255);
     border: #089352;
     border-style: solid;
-
 }
 
-.navbar li{
-    
+.nav li{
+    float: left;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 1%;
 }
 
-body header{
-    border-style: solid;
-
-
-}
 
 .testimonials {
     display: flex;
